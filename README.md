@@ -5,8 +5,8 @@ This is a tutorial I created to teach others how to work with Nodemailer and Nod
 
 ## How to run the bot locally
 1. In your terminal, run `git clone https://github.com/jdwilkin4/Nodemailer-bot-tutorial.git`
-2. In your terminal run `npm install` to add the `node_modules` folder
-3. Create an `.env` file. Store these variables inside the file with your own email address, password and your friend's email address.
+2. In your terminal, under the project directory, run `npm install` to add the `node_modules` folder
+3. In your terminal, under the project directory, run `touch .env`. Store these variables inside the file with your own email address, password and your friend's email address.
 
 ```
 PORT = 3000
@@ -14,4 +14,4 @@ PERSONAL_EMAIL = your email goes here
 EMAIL_PASSWORD = your password goes here
 FRIEND_EMAIL = friend's email goes here 
 ```
-4. In your terminal, run `npm start` 
+4. In your terminal, under the project directory, run `npm start` 
